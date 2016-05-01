@@ -19,7 +19,7 @@
 			console.log("error");
 		})
 		.always(function() {
-			console.log("complete");
+			// console.log("complete");
 		});	
 	};
 
@@ -88,7 +88,7 @@
 		console.log("error");
 	})
 	.always(function() {
-		console.log("complete");
+// 		console.log("complete");
 	});	
 
 	// TIMEAGO
@@ -98,12 +98,14 @@
 
 	// FACEBOOK LIKES
 	$.ajax({
-		url: 'https://graph.facebook.com/v2.3/297402363703689?access_token=387632808073980|b234f72d6e537ace2eae0235c6520a00',
+		url: 'https://graph.facebook.com/v2.6/297402363703689?access_token=387632808073980|b234f72d6e537ace2eae0235c6520a00&fields=likes,fan_count',
 		type: 'GET',
 		dataType: 'json',		
 	})
 	.done(function( response ) {
-		$('.fb-likes').html( response.likes );
+		console.log(response);
+		// fan_count: 1013
+		$('.fb-likes').html( response.fan_count );
 	});
 
 	

@@ -1,19 +1,50 @@
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '387632808073980',
-      xfbml      : true,
-      version    : 'v2.6'
-    });
-  };
+  // window.fbAsyncInit = function() {
+  //   FB.init({
+  //     appId      : '387632808073980',
+  //     xfbml      : true,
+  //     version    : 'v2.6'
+  //   });
+  // };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/pt_BR/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+  // (function(d, s, id){
+  //    var js, fjs = d.getElementsByTagName(s)[0];
+  //    if (d.getElementById(id)) {return;}
+  //    js = d.createElement(s); js.id = id;
+  //    js.src = "//connect.facebook.net/pt_BR/sdk.js";
+  //    fjs.parentNode.insertBefore(js, fjs);
+  //  }(document, 'script', 'facebook-jssdk'));
+  
+
+  window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '387632808073980',
+			xfbml      : true,
+			version    : 'v2.3'
+		});
+
+		FB.api(
+		    "/297402363703689?access_token=387632808073980|b234f72d6e537ace2eae0235c6520a00&fields=likes,fan_count",
+		    function (response) {
+		      if (response && !response.error) {
+		        /* handle the result */
+		        // console.log( response );
+		      }
+		      console.log( response );
+		    }
+		);
+
+	};
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		// js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=387632808073980&version=v2.3";
+		js.src = "//connect.facebook.net/pt_BR/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
 </script>
 
 	<div class="container">
@@ -49,6 +80,7 @@
 			</div>	
 
 			<div class="col-md-6">
+				<h1 class="fa-2x">GRATOS PELOS <strong class="fa-2x"><span class="fb-likes"></span></strong> LIKES!!!</h1>						
 				<div
 				  class="fb-like"
 				  data-href="https://www.facebook.com/foegos"
@@ -64,7 +96,7 @@
 		&nbsp;
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h1 class="fa-2x">GRATOS PELOS <strong><span class="fb-likes"></span></strong> LIKES!</h1>						
+
 			</div>
 		</div>
 		<hr>
