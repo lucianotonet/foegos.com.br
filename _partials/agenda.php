@@ -53,8 +53,7 @@
 			<div class="col-md-8 col-md-offset-2 bg-dark">
 				
 					<div class="text-center">
-					  	<h1>AGENDA</h1>
-					  	<p>Fique ligado...</p>
+					  	<h1 class="section-title">AGENDA</h1>					  	
 					</div>
 					
 
@@ -63,9 +62,14 @@
 					</div>
 					<!-- End Events posts -->
 			
-					<a href="https://www.facebook.com/foegos/events" class="btn btn-danger btn-block">VER AGENDA COMPLETA <i class="fa fa-chevron-right"></i></a>
+					<a href="https://www.facebook.com/foegos/events" class="btn btn-block">VER AGENDA COMPLETA <i class="fa fa-chevron-right"></i></a>
+					
 
+					&nbsp;
+					&nbsp;
+					&nbsp;
 				
+
 			</div>
 		</div>
 
@@ -80,7 +84,7 @@
 			</div>	
 
 			<div class="col-md-6">
-				<h1 class="fa-2x">GRATOS PELOS <strong class="fa-2x"><span class="fb-likes"></span></strong> LIKES!!!</h1>						
+				<h1 class="fa-2x">GRATOS PELOS <strong class="fa-2x"><span class="fb-likes"></span></strong> LIKES!</h1>						
 				<div
 				  class="fb-like"
 				  data-href="https://www.facebook.com/foegos"
@@ -88,7 +92,8 @@
 				  data-width="300"
 				  data-height="400"
 				  data-show-faces="true"
-				  data-show-facepile="true" >
+				  data-show-facepile="true"
+				  data-colorscheme="dark" >
 				</div>				
 			</div>
 							

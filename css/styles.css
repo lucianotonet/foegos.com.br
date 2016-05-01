@@ -60,7 +60,9 @@ html {
 */
 html, button, input, select, textarea {
     font-family: sans-serif;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 1.95em;
+    letter-spacing: 0.22em;
 }
 html, body {
     overflow-x: hidden;
@@ -72,7 +74,9 @@ html, body {
 */
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
 }
 
 /*
@@ -449,11 +453,15 @@ p {
     line-height: 25px;
 }
 a {
-    color: #73d0da
+    color: #FF6565;
 }
 a:hover, a:focus {
-    color: #73d0da;
+    color: #A00A04;
     text-decoration: none;
+}
+.btn:hover, .btn:focus {
+	color: #A00A04;
+	text-decoration: none;
 }
 .texture-overlay {
     position: absolute;
@@ -625,7 +633,6 @@ Hero
     font-size: 1.95em;
     letter-spacing: 0.22em;
     text-align: center;
-
 }
 .hero h3 {
     margin: 20px 0 70px 0;
@@ -737,7 +744,7 @@ Features Slider
 }
 .features-slider li p {
     color: #0E0A0B;
-    font-size: 14px;
+    font-size: 11px;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     letter-spacing: 0.22em;
 }
@@ -773,17 +780,41 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 130px 0
+    padding: 150px 0;
+    color: #EFF7FE;
+    background-image: url('../img/background-06.jpg');
+    background-position: top center;
+    background-size: contain;
+}
+.features-list article{
+    padding: 45px 0;
+    margin-bottom: 45px;
 }
 .features-list h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 0px 0;
+    padding: 0;
+    color: #EFF7FE;
+    font-size: 20px;
+}
+.features-list .section-title {
+    margin: 0 0 50px 0;
+    padding: 0;
+    color: #EFF7FE;
+    font-size: 20px;
+}
+
+.features-list h1.event_title {
+    margin: 10px 0 0px 0;
     padding: 0;
     color: #24374b;
-    font-size: 20px;
+    font-size: 38px;
 }
 .features-list p {
     margin-bottom: 20px;
     color: #778899;
+}
+.event_description{
+    margin: 0px;
 }
 .feature-content {
     display: inline-block;
@@ -793,14 +824,14 @@ Features List
 .feature-icon {
     display: inline-block;
     margin-right: 25px;
-    width: 90px;
-    height: 90px;
-    border: solid 2px #4e9ba3;
+    width: 50px;
+    height: 50px;
+    border: solid 1px #4e9ba3;
     border-radius: 50%;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: center;
     font-size: 25px;
-    line-height: 90px;
+    line-height: 48px;
 }
 .feature-icon i {
     color: #4e9ba3
@@ -1082,7 +1113,7 @@ Nav Overlay
     min-width: 190px;
     /* border: 2px solid #fff; */
     border-radius: 3px;
-    background-color: #345271;
+    background-color: transparent;
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
@@ -1153,4 +1184,14 @@ Waypoints
 .delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+}
+
+
+/* FACEBOOK */
+span#u_0_2 {
+	color: #fff;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	letter-spacing: 0.22em;
+	min-width: 320px;
+	font-size: 10px;
 }

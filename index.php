@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="features-list" id="features">
+		<section class="features-list" id="agenda">
 
 			<?php require('_partials/agenda.php'); ?>
 
@@ -446,7 +446,7 @@
 					<div class="col-md-7">
 						<ul class="footer-nav">
 							<li><a href="#about">About</a></li>
-							<li><a href="#features">Features</a></li>
+							<li><a href="#features">Agenda</a></li>
 							<li><a href="#screenshots">Screenshots</a></li>
 							<li><a href="#download">Download</a></li>
 						</ul>
@@ -458,7 +458,7 @@
 			<nav>
 				<ul>
 					<li><a href="#about">About</a></li>
-					<li><a href="#features">Features</a></li>
+					<li><a href="#agenda">Agenda</a></li>
 					<li><a href="#screenshots">Screenshots</a></li>
 					<li><a href="#download">Download</a></li>
 				</ul>
