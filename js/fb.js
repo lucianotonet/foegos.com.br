@@ -35,7 +35,10 @@
 
 		// console.log(response);		
 
-		$.each(response.data.reverse(), function(index, foegos_event) {
+		// $.each(response.data.reverse(), function(index, foegos_event) {
+		
+			var foegos_event = response.data[0];
+
 			var event_date 	= new Date( foegos_event.start_time );
 			var event_date 	= moment( foegos_event.start_time ).locale('pt');
 			var event_id 	= foegos_event.id;
@@ -81,7 +84,7 @@
 				get_event_details( $(this).data('event') );
 			}); 
 
-		});
+		// });
 
 	})
 	.fail(function() {
