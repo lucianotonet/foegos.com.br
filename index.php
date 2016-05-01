@@ -73,7 +73,7 @@
 							<h2 class="animated fadeInDown">CENA ANTERIOR</h2>
 							<h3 class="animated fadeInDown">ouça nosso novo trabalho.</h3>
 
-							<h4 class="animated fadeInDown"><a href="#about" class="learn-btn animated fadeInUp">FAÇA O DOWNLOAD<i class="fa fa-arrow-down"></i></a></h4>
+							<h4 class="animated fadeInDown"><a href="#download" class="learn-btn animated fadeInUp">FAÇA O DOWNLOAD<i class="fa fa-arrow-down"></i></a></h4>
 							
 						</div>
 					</div>
@@ -88,7 +88,126 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>-->
+
+        <!--abanda-->
+        <section class="sobre" id="sobre">
+			<div class="container-fluid">
+				<div class="row">
+				  <!--imagem-->
+				  <div class="col-md-6 nopadding">
+				  <div class="texture-overlay"></div>
+				   <div class="sobre-bg">
+							<!--<div class="features-img wp1">
+								<img src="img/html5-logo.png" alt="HTML5 Logo">
+							</div>-->
+						</div>
+				  </div>
+                 
+                 <!--texto-->
+				  <div class="col-md-6 nopadding">
+				  <div class="texto-sobre">
+				   Banda de Rock procedente do interior do Rio Grande do Sul. 
+				   Com influências variadas em um campo de vasto gosto musical, 
+				   traz uma musicalidade compacta, técnica e cheia de atitude - 
+				   buscando reviver a cena musical de tempos passados com uma pegada renovada
+				    e composições expressivas e belas ao mesmo tempo.
+
+                    <div class="col-md-6 nopadding">
+
+			
+				       
+
+                  </div>
+				  </div>
+
+				  				  </div>
+
+				 </div>
+            </div>
+         </section>
+
+		<!--agenda-->
+		<section class="features-list" id="agenda">
+
+			<?php require('_partials/agenda.php'); ?>
+		</section>
+
+
+		<section class="showcase" id="download">
+			<div class="showcase-wrap">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/cd.png" alt="placeholder+image">
+
+							<!--<div class="device wp3">
+								<div class="device-content">
+									<div class="showcase-slider">
+										<ul class="slides" id="showcaseSlider">
+											<li>
+												<img src="img/screen1.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen2.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen3.jpg" alt="Device Content Image">
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>-->
+						</div>
+						<div class="col-md-6">
+							<h1>BAIXE O  NOVO EP DA BANDA</h1>
+							
+							<div class="col-md-12" style="text-align: center;">
+							<a href="http://bit.ly/1SUtnij" class="download-btn">Download! <i class="fa fa-download"></i></a>
+                            </div>
+								
+							</blockquote>
+							
+							<!--outras midias-->
+
+							<div class="midias">
+
+						      <div class="col-md-3">                            
+						        <div class="logo-quote">						   
+								 <a href="https://foegos.bandcamp.com/"  target="_blank "><img src="img/bandcamp-logo.png" alt="bandcamp-logo"></a>
+						       </div>
+						      </div>
+
+						     <div class="col-md-3">                            
+						     <div class="logo-quote">						   
+								<a href="https://www.youtube.com/watch?v=GjWDLK5F2kM&list=LLoY_3QMuwid7NVzV4iDZ3zg" target="_blank "><img src="img/youtube-logo.png" alt="Youtube Logo"></a>
+						     </div>
+						    </div>
+
+						     <div class="col-md-3">                            
+						     <div class="logo-quote">						   
+								<a href="https://soundcloud.com/foegos"  target="_blank "><img src="img/soundcloud-logo.png" alt="Soundcloud Logo"></a>
+						     </div>
+						     </div>
+
+
+						     <div class="col-md-3">                            
+						     <div class="logo-quote">						   
+								<a href="http://www.cdbaby.com/cd/foegos1"  target="_blank "><img src="img/cdbaby-logo.png" alt="cdbaby-logo"></a>
+						     </div>
+						    </div>
+
+
+						      </div>
+
+						    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!--letras-->
 		<section class="features-intro">
 			<div class="container-fluid">
 				<div class="row">
@@ -198,106 +317,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="features-list" id="agenda">
 
-			<?php require('_partials/agenda.php'); ?>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-
-						<div class="col-md-4 feature-1 wp2">
-							<div class="feature-icon">
-								<i class="fa fa-desktop"></i>
-							</div>
-							<div class="feature-content">
-								<h1>SUBÙRBIO DA CIDADE</h1>
-								<p>Fico alucinado em meio desse interior
-                                   Fiquei hipnotizado com a cena anterior
-                                   Deitado aqui no chão com tudo ao meu redor
-                                   Desvendando uma ideia mas só fica pior!
-                                   Parece que foi ontem mas passou muito ligeiro
-                                   Pensei que era uma noite, mas foi o dia inteiro
-                                   Nunca mais eu volto pro subúrbio da cidade
-                                   Andei pensando em mim, vi que não tenho mais idade!
-                                   Mas eu não sei te falar, eu não sei te descrever,
-                                   O quanto tempo falta, pra isso acabar 
-                                   Tentei tirar vantagem dessa desvantagem
-                                   Melhor falar que não, entendi muito a mensagem
-                                   Até ontem eu tinha entendido o final,
-                                   Hoje eu não entendi, perdi até o sinal!
-                                   Mas eu não sei te falar, eu não sei te descrever,
-                                   O quanto tempo falta, pra isso acabar</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-2 wp2 delay-05s">
-							<div class="feature-icon">
-								<i class="fa fa-flash"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Multi-Purpose</h1>
-								<p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-3 wp2 delay-1s">
-							<div class="feature-icon">
-								<i class="fa fa-heart"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Absolutely Free</h1>
-								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="showcase">
-			<div class="showcase-wrap">
-				<div class="texture-overlay"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="device wp3">
-								<div class="device-content">
-									<div class="showcase-slider">
-										<ul class="slides" id="showcaseSlider">
-											<li>
-												<img src="img/screen1.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen2.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen3.jpg" alt="Device Content Image">
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<h1>Showcase your Product or Service</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							<blockquote class="team-quote">
-								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Peter Finlan</p>
-								<div class="logo-quote">
-									<a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
-								</div>
-							</blockquote>
-							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="screenshots-intro">
+		<!--<section class="screenshots-intro">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -433,38 +455,18 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>-->
+		
+		<?php require('_partials/comments.php') ?>
 
-		<?php require("_partials/contatos.php"); ?>
-
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5">
-						<h1 class="footer-logo">
-						<img src="img/logo-blue.png" alt="Footer Logo Blue">
-						</h1>
-						<p>© Boxify 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a> - Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
-					</div>
-					<div class="col-md-7">
-						<ul class="footer-nav">
-							<li><a href="#about">About</a></li>
-							<li><a href="#features">Agenda</a></li>
-							<li><a href="#screenshots">Screenshots</a></li>
-							<li><a href="#download">Download</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-
+		<?php require('_partials/contatos.php') ?>
 		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
-					<li><a href="#about">About</a></li>
+					<li><a href="#sobre">Sobre</a></li>
 					<li><a href="#agenda">Agenda</a></li>
-					<li><a href="#screenshots">Screenshots</a></li>
 					<li><a href="#download">Download</a></li>
+					<li><a href="#contatos">Contato</a></li>
 				</ul>
 			</nav>
 		</div>

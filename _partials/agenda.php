@@ -107,5 +107,3 @@
 		<hr>
 
 	</div>
-
-<?php require('_partials/comments.php') ?>

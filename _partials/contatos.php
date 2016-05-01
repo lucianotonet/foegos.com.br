@@ -25,7 +25,7 @@
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
-		padding: 1.5em 0 0 0;
+		/*padding: 1.5em 0 0 0;*/
 		color: rgba(0, 0, 0, 0.75);
 		cursor: default;
 		text-align: center;
@@ -52,6 +52,25 @@
 </style>
 
 <footer id="footer" class="text-center">
+	
+	<div id="contatos"></div>
+
+	&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;
+		&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;	&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;	&nbsp;
+	&nbsp;
+	&nbsp;
+	&nbsp;
+
+	<hr>
 
 	<h1 class="logo text-center">FOEGOS</h1>
 	<center>
@@ -108,7 +127,7 @@
 			</div>
 		</div>
 	</div> -->
-</footer>
+</footer>\
 
 <!-- Scripts -->
 <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->

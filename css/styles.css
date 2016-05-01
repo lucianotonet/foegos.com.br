@@ -500,8 +500,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    border-color: #FF6565;
+    color: #FF6565;
     text-decoration: none;
 }
 .read-more-btn {
@@ -526,10 +526,13 @@ Navigation
 .nav-toggle {
     position: absolute;
     top: 20px;
-    /* right: 15px; */
+    right: 0;
     z-index: 999999;
-    padding: 10px 35px 16px 0px;
+    padding: 10px 0px 10px 0px;
     cursor: pointer;
+    /* left: 0; */
+    /* margin: 0 auto; */
+    /* display: block; */
 }
 .nav-toggle:focus {
     outline: none;
@@ -636,7 +639,7 @@ Hero
 }
 .hero h3 {
     margin: 20px 0 70px 0;
-    /* font-weight: 300; */
+    font-weight: 100;
     font-size: 20px;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-align: center;
@@ -666,7 +669,7 @@ Video
 ========================================================================== */
 section.video i {
     margin-right: 10px;
-    color: #323a45;
+    color: #DC0000;
     vertical-align: middle;
     font-size: 50px;
     -webkit-transition: color 300ms ease-in-out;
@@ -677,11 +680,11 @@ section.video h1 {
     font-size: 20px;
 }
 section.video {
-    padding: 60px 0;
+    /* padding: 60px 0; */
     background-color: #f6f7f9;
 }
 section.video a {
-    color: #323a45
+    color: #A9BBC9;
 }
 section.video a:hover, section.video a:focus {
     color: #73d0da;
@@ -838,6 +841,30 @@ Features List
 }
 
 /* ==========================================================================
+sobre
+========================================================================== */
+.sobre-bg {
+    position: relative;
+    min-height: 500px;
+    background: url('../img/foegos-foto1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.texto-sobre {
+    width: 100%;
+    min-height: 500px;
+    background-color: #F6F6F6;
+    text-align: center;
+    /* margin-top: 10%; */
+    padding: 10%;
+    padding-top: 20%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 100;
+    letter-spacing: 0.20em;
+    color: #141823;
+}
+/* ==========================================================================
 Blockquote
 ========================================================================== */
 blockquote {
@@ -868,15 +895,23 @@ blockquote .logo-quote {
 /* ==========================================================================
 Showcase
 ========================================================================== */
+
+.midias {
+    width: 100%;
+    margin-top: 15%;
+    float: left;
+    text-align: center;
+}
 .showcase {
-    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: url('../img/fundo2.png') no-repeat center center fixed;
     background-size: cover;
 }
 .showcase h1 {
-    margin: 0 0 20px 0;
+    margin: 20% 0 20px 0;
     color: #fff;
     font-weight: 400;
     font-size: 22px;
+    text-align: center;
 }
 .showcase p {
     margin-bottom: 25px;
@@ -1038,7 +1073,7 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+    padding: 160px 0 30px;
 }
 footer p {
     color: #c7cacc;
@@ -1072,7 +1107,7 @@ Nav Overlay
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(52, 82, 113, 0.95);
+    background: rgba(30, 32, 34, 0.95);
 }
 
 /* Menu style */
@@ -1122,8 +1157,8 @@ Nav Overlay
     transition: all 300ms ease-in-out;
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
-    border-color: #73d0da;
-    color: #73d0da;
+    /* border-color: #FF6565; */
+    color: #FF6565;
 }
 
 /* Effects */
