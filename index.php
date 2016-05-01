@@ -9,15 +9,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>FOEGOS - Novo ábum "Cena anterior"</title>
-		<meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops by Peter Finlan" />
-		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
-		<meta name="author" content="Peter Finlan" />
+		<meta name="description" content="conheça a banda, confira nossa agenda" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
 		<!-- Bootstrap -->
 		<script src="js/modernizr.custom.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/jquery.fancybox.css" rel="stylesheet">
 		<link href="css/flickity.css" rel="stylesheet" >
 		<link href="css/animate.css" rel="stylesheet">
+		<link href="fonts/stylesheet.css" rel="stylesheet">
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 		<link href="css/styles.css" rel="stylesheet">
@@ -49,25 +50,31 @@
 				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row nav-wrapper">
-						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-							<a href="#"><img src="img/logo-white.png" alt="Boxify Logo"></a>
-						</div>
 						
+						<!--
 						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
 							<a href="https://www.facebook.com/Foegos/" class="face" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 							<a href="" class="twi" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
 							<a href="https://www.youtube.com/user/foegosvideos/videos" target="_blank" class="yout"><i class="fa fa-youtube-play fa-2x"></i></a>
-						</div>
+						</div>-->
 
-						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+						<div class="col-md-12 col-sm-12 col-xs-12 text-center navicon">
 							<a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
 						</div>
 					</div>
 					<div class="row hero-content">
-						<div class="col-md-12">
-							<h1 class="animated fadeInDown">CENA ANTERIOR</h1>
-							<h2 class="animated fadeInDown">ouça nosso novo trabalho.</h2>
-							<a href="#about" class="learn-btn animated fadeInUp">FAÇA O DOWNLOAD AQUI<i class="fa fa-arrow-down"></i></a>
+						  <div class="col-md-12">
+
+						    <!--logo-->
+						    <a href="#"><h1 class="animated fadeInDown">FOEGOS</h1></a>
+						   
+
+
+							<h2 class="animated fadeInDown">CENA ANTERIOR</h2>
+							<h3 class="animated fadeInDown">ouça nosso novo trabalho.</h3>
+
+							<h4 class="animated fadeInDown"><a href="#about" class="learn-btn animated fadeInUp">FAÇA O DOWNLOAD<i class="fa fa-arrow-down"></i></a></h4>
+							
 						</div>
 					</div>
 				</div>
@@ -85,21 +92,32 @@
 		<section class="features-intro">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 nopadding features-intro-img">
-						<div class="features-bg">
-							<div class="texture-overlay"></div>
-							<!--<div class="features-img wp1">
-								<img src="img/html5-logo.png" alt="HTML5 Logo">
-							</div>-->
-						</div>
-					</div>
-					<div class="col-md-6 nopadding">
+					
+
+
+
+					<div class="col-md-5 nopadding">
 						<div class="features-slider">
 								<ul class="slides" id="featuresSlider">
 									<li>
-										<h1>The Fore-front of Design &amp; Technology</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-										<p><a href="#features" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
+										<h1>SUBÙRBIO DA CIDADE</h1>
+								   <p>Fico alucinado em meio desse interior<br/>
+                                   Fiquei hipnotizado com a cena anterior<br/>
+                                   Deitado aqui no chão com tudo ao meu redor<br/>
+                                   Desvendando uma ideia mas só fica pior!<br/>
+                                   Parece que foi ontem mas passou muito ligeiro<br/>
+                                   Pensei que era uma noite, mas foi o dia inteiro<br/>
+                                   Nunca mais eu volto pro subúrbio da cidade<br/>
+                                   Andei pensando em mim, vi que não tenho mais idade!<br/><br/>
+                                   Mas eu não sei te falar, eu não sei te descrever<br/>
+                                   O quanto tempo falta, pra isso acabar <br/><br/>
+                                   Tentei tirar vantagem dessa desvantagem<br/>
+                                   Melhor falar que não, entendi muito a mensagem<br/>
+                                   Até ontem eu tinha entendido o final,<br/>
+                                   Hoje eu não entendi, perdi até o sinal!<br/><br/>
+                                   Mas eu não sei te falar, eu não sei te descrever<br/>
+                                   O quanto tempo falta, pra isso acabar</p>
+										<p><a href="#features" class="arrow-btn">Ouça agora <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 									<li>
 										<h1>Multi-Purpose User Centric Design</h1>
@@ -107,22 +125,84 @@
 										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 									<li>
-										<h1>Made with Love, Released for Free</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+										<h1>OUTRA EM SEU LUGAR</h1>
+										<p>Pode ficar com tudo que eu te dei<br/>
+                                            pode culpar a mim com tua lei<br/>
+                                            Não devo nada (8x) Nada Para você<br/>
+                                            Pode quebrar aquele vaso chinês<br/>
+                                            Pode rasgar minha camisa xadrez<br/>
+                                            Não quero nada (8x) Nada mais com você<br/><br/>
+
+                                           Tempo, por quanto tempo você ainda vai infernizar<br/>
+                                           Só por raiva de mim, orgulho seu sem fim<br/>
+                                           Ou é ciúme de outra em seu lugar<br/><br/>
+
+                                           Pode ser que eu esteja louco<br/>
+                                           Mas tem outra em seu lugar<br/>
+                                           Pode ser que não dure pouco<br/>
+                                           Mas tem outra em seu lugar<br/><br/>
+
+                                           Pode ficar com tudo que eu te dei<br/>
+                                           Pode culpar a mim com tua lei<br/>
+                                           Não devo nada (8x) Nada para você<br/>
+                                           Pode levar o arranjo do quintal<br/>
+                                           Pode apagar meu nome em seu mural<br/>
+                                           Não quero nada (8x) Nada nada por mal<br/><br/>
+
+                                           
+</p>
+										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+									<li>
+										<h1>NÃO DEIXE NADA ATRAPALHAR</h1>
+										<p>Passou um bom tempo longe de tudo que faz mal<br/>
+										   Não teve idéia sobre o que era ser normal<br/>
+                                           Uma louca psicopata num dia natural<br/>
+                                           Entrou numa freqüência pensou que era legal <br/>
+                                           Fez uma coisa estranha, sentiu-se até mal<br/>
+                                           Com uma idéia louca, algo sobrenatural<br/>
+                                           Sentada na calçada, se olhando no jornal<br/>
+                                           Lembrando da viagem que teve virtual<br/><br/>
+
+                                           <span class="refrao">Mas deixe a noite te levar<br/>
+                                           Não deixe nada atrapalhar<br/><br/></span>
+
+                                           Agora ela tá em casa tentando se lembrar<br/>
+                                           Da coisa fiasquente que não pode negar<br/>
+                                           Todos estão falando que ela não vai passar<br/>
+                                           Da porta do seu quarto para um vinho tomar<br/>
+                                           Agora ela aprendeu não vai mais aprontar<br/>
+                                           Sentiu vergonha alheia, deixou de acreditar<br/>
+                                           Na estória que eu contei demorou pra acabar<br/>
+                                           Hoje ela fala tudo, repete até cansar<br/></p>
 										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 								</ul>
 						</div>
 					</div>
+
+
+
+					<div class="col-md-7 nopadding features-intro-img">
+						<div class="features-bg">
+							<!--<div class="features-img wp1">
+								<img src="img/html5-logo.png" alt="HTML5 Logo">
+							</div>-->
+						</div>
+					</div>
+
+
+
+
+
 				</div>
 			</div>
 		</section>
 		<section class="features-list" id="features">
 
 			<?php require('_partials/agenda.php'); ?>
-		
+
 			<div class="container">
-				
 				<div class="row">
 					<div class="col-md-12">
 
@@ -131,8 +211,23 @@
 								<i class="fa fa-desktop"></i>
 							</div>
 							<div class="feature-content">
-								<h1>Responsive</h1>
-								<p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
+								<h1>SUBÙRBIO DA CIDADE</h1>
+								<p>Fico alucinado em meio desse interior
+                                   Fiquei hipnotizado com a cena anterior
+                                   Deitado aqui no chão com tudo ao meu redor
+                                   Desvendando uma ideia mas só fica pior!
+                                   Parece que foi ontem mas passou muito ligeiro
+                                   Pensei que era uma noite, mas foi o dia inteiro
+                                   Nunca mais eu volto pro subúrbio da cidade
+                                   Andei pensando em mim, vi que não tenho mais idade!
+                                   Mas eu não sei te falar, eu não sei te descrever,
+                                   O quanto tempo falta, pra isso acabar 
+                                   Tentei tirar vantagem dessa desvantagem
+                                   Melhor falar que não, entendi muito a mensagem
+                                   Até ontem eu tinha entendido o final,
+                                   Hoje eu não entendi, perdi até o sinal!
+                                   Mas eu não sei te falar, eu não sei te descrever,
+                                   O quanto tempo falta, pra isso acabar</p>
 								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
 							</div>
 						</div>
@@ -162,8 +257,6 @@
 			</div>
 		</section>
 		<section class="showcase">
-		
-
 			<div class="showcase-wrap">
 				<div class="texture-overlay"></div>
 				<div class="container">
@@ -203,7 +296,6 @@
 				</div>
 			</div>
 		</section>
-
 
 		<section class="screenshots-intro">
 			<div class="container">
@@ -365,23 +457,18 @@
 		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
-					<li><a href="#about"><i class="fa fa-heart"></i>About</a></li>
-					<li><a href="#features"><i class="fa fa-flash"></i>Features</a></li>
-				</ul>
-				<ul>
-					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Screenshots</a></li>
-					<li><a href="#download"><i class="fa fa-download"></i>Download</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#screenshots">Screenshots</a></li>
+					<li><a href="#download">Download</a></li>
 				</ul>
 			</nav>
 		</div>
-
-		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/min/toucheffects-min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/flickity.pkgd.min.js"></script>
 		<script src="js/jquery.fancybox.pack.js"></script>
-
 
 		<script src="js/jquery.timeago.js" type="text/javascript"></script>
 		<!-- <script src="js/moment.min.js" type="text/javascript"></script> -->
@@ -402,6 +489,5 @@
 		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 		ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
-
 	</body>
 </html>
