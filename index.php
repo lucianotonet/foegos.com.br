@@ -434,6 +434,9 @@
 				</div>
 			</div>
 		</section>
+
+		<?php require("_partials/contatos.php"); ?>
+
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -454,6 +457,7 @@
 				</div>
 			</div>
 		</footer>
+
 		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
